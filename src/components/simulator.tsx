@@ -84,6 +84,7 @@ function Step1({
   return (
     <div>
       <h2 className="text-lg font-bold text-gray-800 mb-1">物件の住所を入力</h2>
+      <p className="text-xs text-gray-400 mb-1">※ 本ツールは概算の目安をお伝えするものです。</p>
       <p className="text-xs text-gray-400 mb-4">※ このアプリの対応エリアでない場合はLINEにてご案内します。</p>
 
       {/* 市区町村 */}
@@ -485,7 +486,8 @@ function Step3({
 
       <p className="text-xs text-gray-400 text-center mb-5">
         ※ 本結果は参考値であり、正式査定ではありません。<br />
-        実際の査定額は現地確認後に確定します。
+        実際の査定額は、法令・条例・立地・周辺環境・<br />
+        建物の状態等により大きく異なる場合があります。
       </p>
 
       <a
